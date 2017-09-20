@@ -102,8 +102,6 @@ body {
     width: 1200px;
     border: 1px solid black;
     background: linear-gradient(90deg, orange, red, orange, blue 70%);
-    /*background: linear-gradient(to right, orange, red, orange, blue, blue);*/
-    /*background: radial-gradient(green, yellow, red, blue);*/
 }
 .champheader {
     position: absolute;
@@ -222,26 +220,9 @@ body {
     top: 25px;
     float: left;
     left: 5px;
-    /*border: 1px solid red;*/
     padding: 5px;
     margin: 25px;
     font-weight: bold;
     color: white;
     font-size: 25px;
 }
-/*#team {
-    font-size: 40px;
-    color: orange;
-    font-weight: bold;
-    position: relative;
-}*/
-/*#redsox {
-    text-align: center;
-    font-size: 40px;
-    float: left;
-    top: -180px;
-    color: orange;
-    font-weight: bold;
-    left: 180px;
-    position: relative;
-}*/
