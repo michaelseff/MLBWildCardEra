@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+}
+.header {
+    color: brown;
+    text-align: center;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 225px;
+    box-shadow: 0px 8px 16px 0px rgba(0,4,6,0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.bracketarea {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: table;
+    width: 850px;
+    height: 570px;
+    visibility: hidden;
+}
+.bracket2016 {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: table;
+}
+.button2016 {
+    position: relative;
+    margin: 0 auto;
+    display: table;
+}
+.footer {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    font-color: blue;
+    border: 1px solid black;
+    background-color: #dedfe0;
+    font-family: 'Oswald', sans-serif;
+}
+.celebration {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    opacity: 0.32;
+    top: -10px;
+}
+.champions {
+    position: relative;
+    top: 270px;
+    margin: auto;
+    height: 300px;
+    width: 1200px;
+    border: 1px solid black;
+    background: linear-gradient(90deg, orange, red, orange, blue 70%);
+    /*background: linear-gradient(to right, orange, red, orange, blue, blue);*/
+    /*background: radial-gradient(green, yellow, red, blue);*/
+}
+.champheader {
+    position: absolute;
+    top: 330px;
+    left: 370px;
+    text-align: center;
+    border: 1px solid purple;
+    padding: 5px;
+    background-color: white;
+}
+.boxes1 {
+    height: 175px;
+    width: 175px;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    float: left;
+    left: 5px;
+    /*border: 1px solid red;*/
+    padding: 5px;
+    margin: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+.giantslogo1 {
+    height: 185px;
+    width: 185px;
+    top: -5px;
+    left: -5px;
+    position: relative;
+    opacity: 0.8;
+}
+.giantslogo2 {
+    height: 185px;
+    width: 185px;
+    top: -5px;
+    left: -5px;
+    position: relative;
+    opacity: 0.8;
+}
+.redsoxlogo {
+    height: 185px;
+    width: 185px;
+    top: -5px;
+    left: -5px;
+    position: relative;
+    opacity: 0.8;
+}
+.royalslogo {
+    height: 185px;
+    width: 185px;
+    position: relative;
+    opacity: 0.8;
+    top: -5px;
+    left: -5px;
+}
+.cubslogo {
+    height: 185px;
+    width: 185px;
+    position: relative;
+    opacity: 0.8;
+    top: -5px;
+    left: -5px;
+}
+.boxes2 {
+    height: 175px;
+    width: 175px;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    float: left;
+    left: 5px;
+    /*border: 1px solid red;*/
+    padding: 5px;
+    margin: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+.boxes3 {
+    height: 175px;
+    width: 175px;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    float: left;
+    left: 5px;
+    /*border: 1px solid red;*/
+    padding: 5px;
+    margin: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+.boxes4 {
+    height: 175px;
+    width: 175px;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    float: left;
+    left: 5px;
+    /*border: 1px solid red;*/
+    padding: 5px;
+    margin: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+.boxes5 {
+    height: 175px;
+    width: 175px;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    float: left;
+    left: 5px;
+    /*border: 1px solid red;*/
+    padding: 5px;
+    margin: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+/*#team {
+    font-size: 40px;
+    color: orange;
+    font-weight: bold;
+    position: relative;
+}*/
+/*#redsox {
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    top: -180px;
+    color: orange;
+    font-weight: bold;
+    left: 180px;
+    position: relative;
+}*/
