@@ -104,12 +104,9 @@ body {
     background: linear-gradient(90deg, orange, red, orange, blue 70%);
 }
 .champheader {
-    position: absolute;
-    top: 330px;
-    left: 370px;
+    position: relative;
+    top: 280px;
     text-align: center;
-    border: 1px solid purple;
-    padding: 5px;
     background-color: white;
 }
 .boxes1 {
